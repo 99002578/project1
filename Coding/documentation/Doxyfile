@@ -1,38 +1,4 @@
 
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@stepin104793 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-Bharathgopal
-/
-STEPin
-0
-11
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-STEPin/MiniProject_C/3_Implementation/documentation/Doxyfile
-@Bharathgopal
-Bharathgopal Added Project structure
-Latest commit a218b64 on Aug 2
- History
- 1 contributor
-2495 lines (1941 sloc)  106 KB
-  
 # Doxyfile 1.8.13
 
 # This file describes the settings to be used by the documentation system
@@ -2528,15 +2494,3 @@ GENERATE_LEGEND        = YES
 # This tag requires that the tag HAVE_DOT is set to YES.
 
 DOT_CLEANUP            = YES
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
