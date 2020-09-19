@@ -53,5 +53,6 @@ long factorial(int operand1);
 *@param[in] operand1
 *@return sum of digit of a number
 */
+int sum (int operand1);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
