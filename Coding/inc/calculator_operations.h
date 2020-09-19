@@ -48,5 +48,10 @@ int divide(int operand1, int operand2);
 *@return Result of factorial of(operand1)
 */
 long factorial(int operand1);
+/**
+*finds the sum of digit of a number
+*@param[in] operand1
+*@return sum of digit of a number
+*/
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
