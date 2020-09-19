@@ -48,11 +48,5 @@ int divide(int operand1, int operand2);
 *@return Result of factorial of(operand1)
 */
 long factorial(int operand1);
-/**
-*finds the hcf of two operands and returns the results
-*@param[in] operand1
-*@param[in]operand2
-*@return result
-*/
-int hcf(int operand1, int operand2);
+
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
