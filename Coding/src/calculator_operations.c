@@ -33,5 +33,20 @@ for (c = 1; c <= operand1; c++)
 return r;
  }
 
+ 
+
+int sum (int operand1)
+{
+    int sum=0;
+    if (operand1 != 0)
+    {
+        return (operand1 % 10 + sum (operand1 / 10));
+    }
+    else
+    {
+       return 0;
+    }
+}
+
   
 
