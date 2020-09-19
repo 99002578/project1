@@ -23,3 +23,12 @@ int divide(int operand1, int operand2)
     else
         return operand1 / operand2;
 }
+
+long factorial(int n)
+{
+    int c;
+    long r = 1;
+for (c = 1; c <= n; c++)
+    r = r * c;
+return r;
+ }
