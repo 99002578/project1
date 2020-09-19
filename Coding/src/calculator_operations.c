@@ -24,11 +24,11 @@ int divide(int operand1, int operand2)
         return operand1 / operand2;
 }
 
-long factorial(int n)
+long factorial(int operand1)
 {
     int c;
     long r = 1;
-for (c = 1; c <= n; c++)
+for (c = 1; c <= operand1; c++)
     r = r * c;
 return r;
  }
