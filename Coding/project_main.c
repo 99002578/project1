@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Factorial\n6. Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Factorial\n6. Sum\n7. Exit");
     printf("\n\tEnter your choice\n");
    
      __fpurge(stdin);
@@ -102,6 +102,15 @@ void calculator_menu(void)
             calculator_operand1, 
             
             factorial(calculator_operand1));
+            
+            __fpurge(stdin);
+            getchar();
+            break;
+            case SUM:
+            printf("\n\t%d / %d = %d\nEnter to continue", 
+            calculator_operand1, 
+            
+            sum(calculator_operand1));
             
             __fpurge(stdin);
             getchar();
