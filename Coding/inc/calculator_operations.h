@@ -33,8 +33,6 @@ int subtract(int operand1, int operand2);
 * @return Result of operand1 * operand2
 */
 int multiply(int operand1, int operand2);
-
-
 /**
 * divides the operand1 by operand2 and returns the result 
 * @param[in] operand1 
@@ -42,6 +40,19 @@ int multiply(int operand1, int operand2);
 * @return integer value of the operand1 / operand2
 * @note returns 0 for divide by 0 error
 */
-int divide(int operand1, int operand2);
 
+int divide(int operand1, int operand2);
+/**
+*Finds the factorial of the operand and returns the result
+*@param[in] operand1
+*@return Result of factorial of(operand1)
+*/
+long factorial(int operand1);
+/**
+*finds the hcf of two operands and returns the results
+*@param[in] operand1
+*@param[in]operand2
+*@return result
+*/
+int hcf(int operand1, int operand2);
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
